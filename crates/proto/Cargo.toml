@@ -1,0 +1,10 @@
+[package]
+name = "compute-proto"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+data-encoding.workspace = true
+postcard.workspace = true
+serde.workspace = true
+thiserror.workspace = true

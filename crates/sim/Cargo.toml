@@ -1,0 +1,11 @@
+[package]
+name = "compute-sim"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+compute-net.workspace = true
+compute-proto.workspace = true
+async-trait.workspace = true
+tokio.workspace = true
+tokio-util.workspace = true

@@ -1,0 +1,23 @@
+[package]
+name = "compute-cli"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "compute"
+path = "src/main.rs"
+
+[dependencies]
+compute-agent.workspace = true
+compute-coordinator.workspace = true
+compute-net.workspace = true
+compute-proto.workspace = true
+serde_json.workspace = true
+anyhow.workspace = true
+clap.workspace = true
+data-encoding.workspace = true
+tokio.workspace = true
+tracing-subscriber.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true

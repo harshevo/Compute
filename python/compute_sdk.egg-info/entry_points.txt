@@ -1,0 +1,2 @@
+[console_scripts]
+compute-python = compute_sdk.cli:main

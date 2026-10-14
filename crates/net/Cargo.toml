@@ -1,0 +1,18 @@
+[package]
+name = "compute-net"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+compute-proto.workspace = true
+async-trait.workspace = true
+iroh.workspace = true
+postcard.workspace = true
+serde.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["test-util"] }
+compute-sim.workspace = true
